@@ -101,6 +101,7 @@ irq_create_affinity_masks(unsigned int nvecs, struct irq_affinity *affd)
 	return masks;
 }
 
+
 /**
  * irq_calc_affinity_vectors - Calculate the optimal number of vectors
  * @minvec:	The minimum number of vectors available
